@@ -45,7 +45,7 @@ body,
 
 /*main*/
 /*jumbo*/
-.bg-img {
+#bg-returnal-img {
     height: 600px;
     background-image: url(img/jumbo-bg.png);
 }
@@ -60,5 +60,9 @@ body,
 
 /*/games*/
 
+#bg-ittakestwo-img {
+    height: 600px;
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+}
 
 /*/main*/
