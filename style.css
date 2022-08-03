@@ -1,0 +1,26 @@
+/*css default*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*content*/
+
+/*header*/
+
+.hline-header {
+    height: 30px;
+}
+
+.py-0 {
+    --bs-nav-link-padding-y: 0 !important;
+    --bs-nav-link-padding-x: 0 !important;
+}
+
+.text-bg-light-dark {
+    background-color: #333;
+}
+
+/*/header*/
