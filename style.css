@@ -6,6 +6,17 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html,
+body {
+    width: 100%;
+}
+
+.d-flex-col {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
 /*content*/
 
 /*header*/
@@ -24,3 +35,15 @@
 }
 
 /*/header*/
+
+/*main*/
+/*jumbo*/
+.bg-img {
+    height: 600px;
+    background-image: url(img/jumbo-bg.png);
+}
+
+.mt-j {}
+
+/*/jumbo*/
+/*/main*/
