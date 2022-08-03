@@ -7,11 +7,18 @@
 }
 
 html,
-body {
+body,
+.bg-img {
     width: 100%;
 }
 
 .d-flex-col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.d-flex-end {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
@@ -43,7 +50,15 @@ body {
     background-image: url(img/jumbo-bg.png);
 }
 
-.mt-j {}
-
 /*/jumbo*/
+
+/*games*/
+#games img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/*/games*/
+
+
 /*/main*/
