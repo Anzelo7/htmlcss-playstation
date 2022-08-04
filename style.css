@@ -107,7 +107,7 @@ ul {
     list-style: none;
 }
 
-a {
+ul a {
     color: #ffff;
     text-decoration: none;
 }
