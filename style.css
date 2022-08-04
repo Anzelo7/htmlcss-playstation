@@ -6,12 +6,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-html,
-body,
-.bg-img {
-    width: 100%;
-}
-
 .d-flex-col {
     display: flex;
     flex-direction: column;
@@ -52,9 +46,8 @@ p {
     height: 30px;
 }
 
-.py-0 {
-    --bs-nav-link-padding-y: 0 !important;
-    --bs-nav-link-padding-x: 0 !important;
+#sticky-top .dropdown-menu.show {
+    display: flex;
 }
 
 .text-bg-light-dark {
@@ -65,9 +58,11 @@ p {
 
 /*main*/
 /*jumbo*/
-#bg-returnal-img {
+#jumbo {
     height: 600px;
-    background-image: url(img/jumbo-bg.png);
+    background-image: url('img/jumbo-bg.png');
+    background-size: cover;
+    background-position: top;
 }
 
 /*/jumbo*/
@@ -82,8 +77,10 @@ p {
 
 /*ittakestwo*/
 #bg-ittakestwo-img {
-    height: 800px;
-    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    height: 600px;
+    background-image: url('img/it-takes-two-hero-banner-desktop.jpg');
+    background-size: cover;
+    background-position: top;
 }
 
 /*/ittakestwo*/
@@ -94,7 +91,6 @@ p {
 }
 
 /*/new-games*/
-
 /*/main*/
 
 /*footer*/
