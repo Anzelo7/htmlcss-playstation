@@ -48,6 +48,15 @@ p {
 
 #sticky-top .dropdown-menu.show {
     display: flex;
+    overflow: hidden;
+}
+
+.arrow:hover{
+
+}
+
+.btn:hover {
+    background-color: #33333387;
 }
 
 .text-bg-light-dark {
@@ -73,7 +82,24 @@ p {
     border-radius: 20px;
 }
 
+#games img:hover {
+    border: 3px solid #2d64e6;
+}
+
 /*/games*/
+
+/*playstation*/
+
+.brd-hvr {
+    opacity: 0.5;
+}
+
+.brd-hvr:hover {
+    opacity: 1;
+    border-bottom: 2px solid #2d64e6;
+}
+
+/*/playstation*/
 
 /*ittakestwo*/
 #bg-ittakestwo-img {
@@ -95,8 +121,8 @@ p {
 
 /*footer*/
 
-.w-5 {
-    width: 5%;
+.w-8 {
+    width: 8%;
 }
 
 ul {
