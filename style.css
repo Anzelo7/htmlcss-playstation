@@ -34,6 +34,14 @@ body,
     background-color: #bebcbb;
 }
 
+.bg-blue {
+    background-color: #161c3b;
+}
+
+.bg-mid-blue {
+    background-color: #00439c;
+}
+
 p {
     margin-bottom: 0;
 }
@@ -87,8 +95,21 @@ p {
 
 /*/new-games*/
 
-/*plus*/
-
-
-/*/plus*/
 /*/main*/
+
+/*footer*/
+
+.w-5 {
+    width: 5%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+/*/footer*/
