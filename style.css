@@ -40,6 +40,10 @@ p {
     margin-bottom: 0;
 }
 
+.w-10 {
+    width: 10%;
+}
+
 /*header*/
 
 .hline-header {
@@ -48,12 +52,9 @@ p {
 
 #sticky-top .dropdown-menu.show {
     display: flex;
-    overflow: hidden;
 }
 
-.arrow:hover{
-
-}
+.arrow:hover {}
 
 .btn:hover {
     background-color: #33333387;
@@ -120,10 +121,6 @@ p {
 /*/main*/
 
 /*footer*/
-
-.w-8 {
-    width: 8%;
-}
 
 ul {
     list-style: none;
