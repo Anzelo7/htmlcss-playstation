@@ -32,6 +32,10 @@
     background-color: #bebcbb;
 }
 
+.text-bg-sec-light {
+    background-color: #e7e7e7;
+}
+
 .text-sec-light {
     color: #bebcbb;
 }
@@ -50,6 +54,18 @@ p {
 
 .w-10 {
     width: 10%;
+}
+
+.btn-hvr:hover {
+    border: 2px solid #fff;
+}
+
+.btn-hvr-prym:hover {
+    border: 2px solid #1878f3;
+}
+
+.btn-hvr-dark:hover {
+    border: 2px solid #000;
 }
 
 /*header*/
