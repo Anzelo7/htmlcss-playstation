@@ -24,8 +24,16 @@
     background-color: #333;
 }
 
+.text-bg-light-dark {
+    background-color: #333;
+}
+
 .bg-sec-light {
     background-color: #bebcbb;
+}
+
+.text-sec-light {
+    color: #bebcbb;
 }
 
 .bg-blue {
@@ -54,14 +62,22 @@ p {
     display: flex;
 }
 
-.arrow:hover {}
+.px-10 {
+    width: 10px;
+}
 
 .btn:hover {
     background-color: #33333387;
 }
 
-.text-bg-light-dark {
-    background-color: #333;
+.w-25:hover {
+    transform: scale(1.5);
+    border: 1px solid #00000f;
+    box-shadow: 0 0 10px #000000c4;
+}
+
+.prym-hvr:hover {
+    color: #1878f3;
 }
 
 /*/header*/
@@ -78,13 +94,24 @@ p {
 /*/jumbo*/
 
 /*games*/
-#games img {
+#games img,
+#new-games img {
     width: 100%;
     border-radius: 20px;
 }
 
 #games img:hover {
-    border: 3px solid #2d64e6;
+    border: 2px solid #1878f3;
+
+}
+
+.pb-hover {
+    position: relative;
+}
+
+.pb-hover img:hover {
+    position: relative;
+    bottom: 20px;
 }
 
 /*/games*/
@@ -97,7 +124,7 @@ p {
 
 .brd-hvr:hover {
     opacity: 1;
-    border-bottom: 2px solid #2d64e6;
+    border-bottom: 2px solid #1878f3;
 }
 
 /*/playstation*/
